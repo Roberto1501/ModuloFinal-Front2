@@ -10,14 +10,12 @@
     <body>
         <div class="container-main" >
             <div class="imgUp" >
-                <img src="../assets/imgSsa.jpg" />
+                <img src="../assets/pexels-mengliu-di-3679525.jpg" />
             </div>
-            <div class="logo-area" >
-                <img src="../assets/logo.png" alt="Sistema do logo" />
-            </div>
-            <section class="section-login" >
+           
+            <div class="section-login">
                 <form id="form-login"  >
-                    <main>
+                   
                     <div class="data-box" >
                         <label for="email" >Email</label>
                         <input type="email" name="email" id="email" autocomplete="on" placeholder="Digite o seu e-mail">
@@ -27,14 +25,17 @@
                         <label for="password" >Senha</label>
                         <input type="password" name="password" id="password" autocomplete="on" placeholder="Digite a sua senha">
                     </div>
-                    </main>
+                    <div class="data-box-button">
+                        <button type="button" onclick="acessar()">Acessar</button><br><br>
+                        <a href="../SignUp/register.html" >Criar conta</a>
+                    </div>
+                    
                 </form>
-                <footer class="data-box">
-                    <button onclick="acessar()">Acessar</button>
-                    <a href="../SignUp/register.html" >Criar conta</a>
-                </footer>
-            </section>
+               
+            </div>
+           
         </div>
+        
         <script src="./login.js" ></script>
     </body>
 </html>

@@ -6,7 +6,6 @@
 }
 
 body{
-    /* background-color: #121212; */
     max-width: 100%;
 }
 
@@ -20,151 +19,39 @@ input, label {
     width: 100%;
     font-size: 18px;
     border: none;
+    margin-top: 15px;
 }
-
-.container-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    max-width: 100%;
-    left: 500px;
-    top: 80px;
-}
-
-.section-login {
-    background-color: #EAEAEC;
-    height: 500px;
-    width: 550px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    left: 700px;
-    top: 220px;
-}
-
-.form-login {
-    position: absolute;
+.container-main{
     display: flex;
 }
-
-
-.cabecalho {
-    font-size: 20px;
-    color: #181c2e;
-    position: fixed;
-    top: 230px;
-    left: 890px; 
-    z-index: 999;
+img{
+    width: 600px; 
+    height: 99vh; 
 }
 
-
-.data-box {
-    display: flex;
-    align-items: center;
-    max-width: 100%;
-    flex-wrap: wrap;
-
-}
-
-.data-box label {
-    color: #181c2e;
-    font-size: 35px;
-    font-weight: bold;
-    padding-bottom: 10px;
-}
-
-.data-box input {
-    padding-left: 20px;
-    border-radius: 6px;
-    padding: 7px;
-    font-size: 15px;
-}
-
-.data-box button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 22px;
-    padding: 6px;
-    width: 100%;
-    border-radius: 6px;
-    background-color: #181c2e;
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.data-box a {
-    color: #181c2e;
-    font-size:  20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 19px;
-    cursor: pointer;
-    padding: 6px;
-    font-size: 20px;
-    border-radius: 6px;
+#form-login{
     position: relative;
-} 
-
-.data-box a:hover {
-    background-color: #181c2e;
-    color: #fff;
-    transition: all 0.4s;
-}
-
-.logo-area { 
-    background-color: #181c2e;
-    width: 550px;
-    display: flex;
+    top: 130px;
+    left: 200px;
+    transform: translate(-50% -50%);
+    background-color:white;
+    box-shadow: 3px 3px 3px black ;
     justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 700px;
-    top: 80px;
 
+    width: 300px;
+    height: 250px;
+    padding: 60px;
+    padding-bottom: 95px;
+}
+button{
+    width: 300px;
+    margin-top: 15px;
+    border-radius: 3px;
+    background-color: rgb(26, 6, 26) ;
+    color: white;
+    
+}
+a{
+    color: black;
 }
 
-.logo-area img{
-    padding: 20px;
-    height: 100px;
-} 
-
-#agreement {
-    margin-right: 5px;
-    margin-top: 20px;
-    margin-left: 50px;
-}
-  
-#agreement, #agreement-label {
-    display: inline-block;
-    width: auto;
-}
-
-
-#msgSuccess{
-    text-align: center;
-    color: rgb(21, 156, 21);
-}
-
-#msgError{
-    text-align: center;
-    color: red;
-}
-
-.imgUp{
-    position: absolute;
-    display: flex;
-    top: -70px;
-    right: -60px;
-}
-
-.imgUp img{
-    width: 1100px;
-    height: 950px;
-}
